@@ -1,5 +1,5 @@
 # Page links
-The Page Rank (Original and Topic based) are calculated based on the following document links:
+The Page Rank (Original and Topic based) and HITS are calculated based on the following document links:
 - D1 ->  D2, D1 ->  D3, D1 ->  D5, D1 -> D7 
 - D2 ->  D4, D2 ->  D7
 - D3 ->  D1, D3 ->  D5, D3 ->  D8
