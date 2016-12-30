@@ -1,17 +1,17 @@
 # Page links
 The Page Rank (Original and Topic based) are calculated based on the following document links:
-D1 ->  D2, D1 ->  D3, D1 ->  D5, D1 -> D7 
-D2 ->  D4, D2 ->  D7
-D3 ->  D1, D3 ->  D5, D3 ->  D8
-D4 ->  D5, D4 ->  D6, D4 ->  D7 
-D5 ->  D2, D5 ->  D4, D5 ->  D6, D5 ->  D8
-D6 ->  D2, D6 ->  D3, D6 ->  D5
-D7 ->  D1, D7 ->  D3, D7 ->  D5
-D8 ->  D1, D8 ->  D2, D8 ->  D7
+- D1 ->  D2, D1 ->  D3, D1 ->  D5, D1 -> D7 
+- D2 ->  D4, D2 ->  D7
+- D3 ->  D1, D3 ->  D5, D3 ->  D8
+- D4 ->  D5, D4 ->  D6, D4 ->  D7 
+- D5 ->  D2, D5 ->  D4, D5 ->  D6, D5 ->  D8
+- D6 ->  D2, D6 ->  D3, D6 ->  D5
+- D7 ->  D1, D7 ->  D3, D7 ->  D5
+- D8 ->  D1, D8 ->  D2, D8 ->  D7
 
 # Page Rank
 The page rank solution calculates the pages rank according to the formulae:
-PR(A)= (1−d)+ d (PR(T1)/C(T1) + … +PR(Tn)/C(Tn))
+- PR(A)= (1−d)+ d (PR(T1)/C(T1) + … +PR(Tn)/C(Tn))
 
 Where,
 - C(A) is defined as the number of links going out of page A
